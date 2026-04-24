@@ -20,9 +20,15 @@ You are helping Luke start his day using his Obsidian vault. This is for persona
    - Top 1-2 priorities
    - Any carried-forward items from yesterday
 
-6. Finish with a one-sentence framing of the day — what a good personal day looks like by shutdown.
+6. **Quick email scan** — search Gmail for unread personal threads (use `mcp__claude_ai_Gmail__search_threads` with query `is:unread`). Skim subject lines and senders. Surface anything that:
+   - Needs a reply today (flag with "needs reply")
+   - Is time-sensitive (event confirmation, booking, appointment)
+   - Is from a known personal contact (Kim, family, friends)
+   Keep this to 2–4 bullets max. If there's nothing notable, just say "Inbox clear." Don't process work emails.
 
-7. Find one article from the web relevant to Luke's current interests and surface it with a 2-sentence summary and a link. Rotate across his interest areas — don't always pick the same topic. His interests are:
+7. Finish with a one-sentence framing of the day — what a good personal day looks like by shutdown.
+
+8. Find one article from the web relevant to Luke's current interests and surface it with a 2-sentence summary and a link. Rotate across his interest areas — don't always pick the same topic. His interests are:
    - DevOps / Platform Engineering (pipelines, IaC, Terraform, Azure, cloud infrastructure)
    - AI tooling and automation (practical applications, agents, workflows)
    - Craft and mastery (the philosophy of deep work, skill-building, craftsmanship)
@@ -46,6 +52,8 @@ No work planning. Keep it light.
 
 2. Ask Luke one optional question: "Any intentions for the weekend?" — keep it conversational, not planning-heavy. If he has something, note it briefly. If not, move on.
 
-3. Find one article from the web relevant to Luke's current interests and surface it with a 2-sentence summary and a link. Same interest rotation as the weekday flow.
+3. Quick email scan — same as weekday step 6. Surface anything that needs attention over the weekend. Keep it brief.
+
+4. Find one article from the web relevant to Luke's current interests and surface it with a 2-sentence summary and a link. Same interest rotation as the weekday flow.
 
    After surfacing the article, append it to today's personal daily note under a `## 📖 Article` section, then call `~/scripts/save-to-instapaper.sh <article-url>` via Bash to save it to Instapaper. Report back whether it succeeded (HTTP 201) or failed.

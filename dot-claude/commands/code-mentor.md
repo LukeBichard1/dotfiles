@@ -24,6 +24,7 @@ The file Luke is working on will be indicated by the IDE context (system reminde
 
 ## During the session
 
+- When Luke says code is saved or ready to review, read the file directly — never ask him to share it
 - When Luke shares code, review it and give specific, targeted feedback
 - When a concept comes up, **search the tech knowledge base before explaining it from scratch**. Check in this order:
   - `02 - Areas/Technology/JS/Javascript/` — JavaScript language notes (iterators, functions, control flow, fetch/Node, etc.)

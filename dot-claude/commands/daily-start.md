@@ -28,16 +28,16 @@ You are helping Luke start his day using his Obsidian vault. This is for persona
    - Is from a known personal contact (Kim, family, friends)
    Keep this to 2–4 bullets max. If there's nothing notable, just say "Inbox clear." Don't process work emails.
 
-7. Finish with a one-sentence framing of the day — what a good personal day looks like by shutdown.
+7. **News briefing** — use WebSearch to find 5 current news headlines. Search for `top UK news today` or `top tech news today` — alternate between general UK news and tech news day by day. Surface as 5 brief bullets: headline + one sentence of context. Keep it scannable, not a deep dive.
 
 8. Find one article from the web relevant to Luke's current interests and surface it with a 2-sentence summary and a link. Rotate across his interest areas — don't always pick the same topic. His interests are:
-   - Solution Architecture / Azure Platform Design (landing zones, hub-spoke networking, C4 modelling, integration patterns, platform guardrails, golden paths, Bicep — this is his primary career direction right now)
-   - DevOps / Platform Engineering (pipelines, scripting, Azure CLI, GitHub Actions, infrastructure automation)
+   - **Azure / AZ-104 exam prep** (priority — he is actively studying toward AZ-104, targeting late July 2026. Favour practical Azure content: networking, identity, compute, storage, or AZ-104 topic areas)
+   - DevOps / Platform Engineering (pipelines, IaC, Terraform, cloud infrastructure)
    - AI tooling and automation (practical applications, agents, workflows)
    - Craft and mastery (the philosophy of deep work, skill-building, craftsmanship)
    - Skateboarding
    - Game development (Godot, indie games)
-   Pick whichever feels most relevant or energising given the day's context. Weight toward Solution Architecture or DevOps on weekdays given the active study track.
+   Pick whichever feels most relevant or energising given the day's context. Lean toward Azure/AZ-104 on weekdays.
 
    Avoid Medium articles — they are often paywalled. Prefer sources like official docs, dev blogs, Substack, YouTube, or reputable publications.
 
@@ -57,6 +57,8 @@ No work planning. Keep it light.
 
 3. Quick email scan — same as weekday step 6. Surface anything that needs attention over the weekend. Keep it brief.
 
-4. Find one article from the web relevant to Luke's current interests and surface it with a 2-sentence summary and a link. Same interest rotation as the weekday flow.
+4. **News briefing** — same as weekday step 7. 5 headlines, scannable bullets.
+
+5. Find one article from the web relevant to Luke's current interests and surface it with a 2-sentence summary and a link. Same interest rotation as the weekday flow.
 
    After surfacing the article, append it to today's personal daily note under a `## 📖 Article` section, then call `~/scripts/save-to-instapaper.sh <article-url>` via Bash to save it to Instapaper. Report back whether it succeeded (HTTP 201) or failed.
